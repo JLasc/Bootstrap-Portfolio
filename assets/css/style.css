@@ -26,6 +26,7 @@ div.container-fluid.mt-3.mainfooter {
   box-sizing: border-box;
   border-top: 3px solid white;
   background-image: url("../images/wild_oliva.png");
+  padding-bottom: 1rem;
   
 }
 
