@@ -1,25 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Portfolio</title>
+    <title>Bootstrap Portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS sheet -->
-    <link href="../Bootstrap-Portfolio/style.css" rel="stylesheet" type="text/css">
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../Bootstrap-Portfolio/assets/css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
     <!-- Header -->
-    <div class="container">
-      <div class="row bg-dark p-4">
+    <div class="container-fluid mainheader">
+      <div class="row p-4">
         <div class="col-sm-4">
-            <div class="h2 text-white">Jonathan Lascaze</div>
+            <div class="h2 text-white text-right namehead">Jonathan Lascaze</div>
         </div>
-        <div class="col-sm-8 text-right pt-2">
-          <a href="../Bootstrap-Portfolio/index.html">About</a>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 pt-2 text-left">
+            <a href="../Bootstrap-Portfolio/index.html">About</a>
             <span>|</span>
           <a href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
             <span>|</span>
@@ -30,50 +32,73 @@
 
 
     <!-- Content -->
-  <div class="container bg-dark my-5">
-
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="card bg-dark float-left">
-            <img class="card-img" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image">
-            <div class="card-img-overlay">
-              <h3 class="card-title text-center text-white p-2" style="background-color:black; margin-top:75%; opacity:0.75;">Hangman</h5>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <div class="card bg-dark float-right">
-            <img class="card-img" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image">
-            <div class="card-img-overlay">
-              <h3 class="card-title text-center text-white p-2" style="background-color:black; margin-top:75%; opacity:0.75;">Hangman</h5>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-
-<!--       <img class="img-thumbnail float-left m-3" src="assets/images/rpggame.jpg">
-    </div>
-    <div class="row">
-      <img class="img-thumbnail float-left m-3" src="assets/images/rpggame.jpg">
-      <img class="img-thumbnail float-left m-3" src="assets/images/rpggame.jpg">
-    </div>
+    <div class="container mt-3 maincontent">
       <div class="row">
-          <img class="img-thumbnail float-left m-3" src="assets/images/rpggame.jpg">
+        <div class="col-sm-12">
+            <table>
+                <tr> 
+                  <td> 
+                  <div class="card bg-dark m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image cap">
+                    <div class="card-body border text-white">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </td>
+                <td> 
+                    <div class="card bg-dark m-2" style="width: 18rem;">
+                      <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image cap">
+                      <div class="card-body border text-white">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div class="card bg-dark m-2" style="width: 18rem;">
+                          <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image cap">
+                          <div class="card-body border text-white">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td> 
+                          <div class="card bg-dark m-2" style="width: 18rem;">
+                            <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image cap">
+                            <div class="card-body border text-white">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                        </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div class="card bg-dark m-2" style="width: 18rem;">
+                          <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/hangman_250x250.png" alt="Card image cap">
+                          <div class="card-body border text-white">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </td>
+                </tr>
+      
+      
+                </table>    
+        </div>
       </div>
-  </div> -->
+    </div>
 
-  
+
+
         <!-- Footer -->
-        <div class="container">
-            <div class="row bg-dark">
+        <div class="container-fluid mt-3 mainfooter">
+            <div class="row">
               <div class="col-sm-12 text-center text-white p-4">
-                  Copywrite &copy;
+                  Copywrite &copy; Jonathan Lascaze
               </div>
             </div>
           </div>
-
-
-
+          
   </body>
 </html>

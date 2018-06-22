@@ -1,15 +1,53 @@
-div.port-img {
-  position: relative;
-  width: 250px;
-  height: 250px;
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+body {
+  background-image: url("../images/background.png");
+  color: white;
+  display:flex;
+  flex-direction:column;
 }
 
-.text-overlay {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+
+div.container.mt-3.maincontent {
+  background-image: url("../images/wild_oliva.png");
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  box-sizing: border-box;
+  border: 10px solid #1c1b1b;
+}
+
+div.container-fluid.mainheader {
+  background-image: url("../images/wild_oliva.png");
+  box-sizing: border-box;
+  border-bottom: 3px solid white;
+}
+
+div.container-fluid.mt-3.mainfooter {
+  margin-top: auto;
+  box-sizing: border-box;
+  border-top: 3px solid white;
+  background-image: url("../images/wild_oliva.png");
+  
+}
+
+div.h2.text-white.namehead {
+  font-family: 'Satisfy', cursive;
+}
+
+div a{
+  font-family: 'Satisfy', cursive;
+  color: white;
+}
+
+hr {
+  width:100%;
+  color: white;
+  height: 1px;
+  background-color: white;
+}
+
+.aboutme-pic {
+  float: left; 
+  margin: 10px;
+  height: 200px;
+  width: 200px;
 }
